@@ -55,7 +55,7 @@ const Sidebar: React.FC = () => {
 
   return (
     <>
-      <Button onClick={() => setIsOpen(!isOpen)}>Toggle Sidebar</Button>
+      <Button onClick={() => setIsOpen(!isOpen)}>Add Sidebar</Button>
     <SidebarContainer style={{ display: isOpen ? 'block' : 'none' }}>
       <Button onClick={() => setIsOpen(!isOpen)}>Toggle Sidebar</Button>
       <ProviderList>
